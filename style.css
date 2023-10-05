@@ -290,7 +290,7 @@ p {
 	justify-content: center;
 	flex-direction: column;
 	padding: 30px;
-	border-radius: 10px;
+	border-radius: 15px;
 	background-image: url(./img/img-1.png);
 	background-size: cover;
 	margin: 10px 5%;
@@ -608,6 +608,9 @@ p {
 	#projects .all-projects .project-img {
 		height: 100%;
 	}
+	.link-style{
+		color: white;
+	}
 	/* End Project */
 
 	/* About */
@@ -699,9 +702,7 @@ p {
 		flex-basis: 22%;
 		margin: 1.5%;
 	}
-	.link-style{
-		color: white;
-	}
+	
 	
 }
 /* End  Media Query For Desktop */
