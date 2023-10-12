@@ -199,16 +199,16 @@ p {
 /* End Header section */
 
 /* Hero Section */
-/*
+
 #hero {
-	background-image: url(./img/);
+	background-image: url(./img/blue-bg.jpg);
 	background-size:cover;
 	background-position: top center;
 	position: relative;
 	z-index: 1;
-}*/
+}
 
-
+/*
 .video_background{
 	position: absolute;
 	right: 0;
@@ -219,7 +219,7 @@ p {
 
 
 }
-
+*/
 #hero::after {
 	content: '';
 	position: absolute;
@@ -227,7 +227,6 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: rgb(22, 22, 22);
 	opacity: 0.7;
 	z-index: -1;
 }
