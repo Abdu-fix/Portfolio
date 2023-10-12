@@ -199,13 +199,27 @@ p {
 /* End Header section */
 
 /* Hero Section */
+/*
 #hero {
-	background-image: url(./Videos/DJI_0924.mp4);
-	background-size: cover;
+	background-image: url(./img/);
+	background-size:cover;
 	background-position: top center;
 	position: relative;
 	z-index: 1;
+}*/
+
+
+.video_background{
+	position: absolute;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	top: 0;
+	z-index: -1;
+
+
 }
+
 #hero::after {
 	content: '';
 	position: absolute;
@@ -213,7 +227,7 @@ p {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: black;
+	background-color: rgb(22, 22, 22);
 	opacity: 0.7;
 	z-index: -1;
 }
@@ -670,11 +684,31 @@ p {
 		text-align: left;
 		padding-left: 20px;
 	}
-	/* End contact  */
+	
 }
+/* End contact  */
+
 /* End Media Query For Tablet */
 
 /* Media Query For Desktop */
+
+/* Hero */
+@media (min-aspect-ratio: 16/9){
+	.video_background{
+		width : 100%;
+	    height: auto;
+	}
+	
+}
+@media (max-aspect-ratio: 16/9){
+	.video_background{
+		width : auto;
+	    height: 100%;
+	}
+	
+} 
+/* End Hero */
+
 @media only screen and (min-width: 1200px) {
 	/* header */
 	#header .hamburger {
